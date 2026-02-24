@@ -1,0 +1,38 @@
+body {
+  background: #111;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: #f39c12;
+}
+
+#hud {
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 15px;
+  margin: 5px;
+  background: #f39c12;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  background: #e67e22;
+}
+
+canvas {
+  background: #333;
+  display: block;
+  margin: 10px auto;
+  border: 2px solid #555;
+}
+
+#screen {
+  margin-top: 10px;
+}
