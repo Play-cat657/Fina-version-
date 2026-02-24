@@ -178,3 +178,21 @@ function checkMissions() {
     save.missionsDone.push(2);
     save.money += missions[2].reward;
   }
+// ===== TELA INICIAL =====
+function drawIdleScreen() {
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+  ctx.fillStyle = "#444";
+  ctx.fillRect(0, 180, 800, 80);
+
+  ctx.fillStyle = "yellow";
+  ctx.fillRect(100, 200, 40, 20);
+
+  ctx.fillStyle = "white";
+  ctx.font = "20px Arial";
+  ctx.fillText("Clique em CORRIDA para começar", 240, 160);
+
+  requestAnimationFrame(drawIdleScreen);
+}
+
+drawIdleScreen();
